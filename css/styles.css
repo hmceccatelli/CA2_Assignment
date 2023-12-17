@@ -3,7 +3,7 @@
     border-width: 2px;
     overflow: hidden;
     text-align: center;
-    padding: 1%;
+    padding: 5%;
     font-size: 20px;
     background-color: #c3e9d0;
 }
@@ -131,17 +131,23 @@ iframe {
 }
 
 table {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+    margin: 0 auto;
 }
 
 td {
-    border: 1px solid #FFFFF;
-    padding: 8px;
+    border: medium dashed green;
     text-align: left;
 }
 
 .instrument {
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.famous_people {
     max-width: 250px;
     max-height: 250px;
 }
